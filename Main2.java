@@ -14,6 +14,7 @@ public class Main2 {
         System.arraycopy(array, 0, rotatedArray, positions, n - positions);
         return rotatedArray;
     }
+
     public static void main(String[] args) {
         int[] array1 = {1, 2, 3, 4, 5};
         int[] array2 = {1, 2, 3};
